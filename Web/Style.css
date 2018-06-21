@@ -3,8 +3,82 @@
   margin: 0;
 }
 
+html{
+    
+}
+
 
 body {
   background-image: url("img/bg.png");
+    
+}
 
+.blured{
+    width: 100%;
+    height: 115px;
+    position: fixed;
+   background-color:  rgba(0,0,0,.1);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.name{
+    background-image: url(IMG/prpt.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+
+
+
+.mainmenu{
+    position: fixed;
+    margin-left: 55%;
+    margin-top: 40px;
+    font-size: 18pt;
+    
+    z-index: 1;
+    list-style-type: none;
+    
+}
+
+.mainmenu li{
+    float: left;
+    padding-right: 80px;
+     
+
+}
+
+.mainmenu li a{
+    text-decoration: none;
+    color: #fff;
+    z-index: 1;
+}
+
+.mainmenu li a:hover{
+    color: #ddd;
+}
+
+.mainblock{
+    padding-top: 200px;
+    padding-left: 200px;
+    height: 750px;
+}
+
+.mainblock img{
+    margin-top: 35px;
+}
+
+.biotext{
+    background-color: #fff;
+    margin-left: 40%;
+    width: 700px;
+    height: 700px;
+    border-radius: 10%;
+    position: absolute;
 }
