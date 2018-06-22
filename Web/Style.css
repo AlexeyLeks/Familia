@@ -4,13 +4,13 @@
 }
 
 html{
-    
+
 }
 
 
 body {
   background-image: url("img/bg.png");
-    
+
 }
 
 .blured{
@@ -25,14 +25,14 @@ body {
 
 .name{
     background-image: url(IMG/prpt.png);
-    
+
     background-repeat: no-repeat;
     width: 200px;
     height: 100px;
     position: fixed;
     margin-left: 100px;
     margin-top: 10px;
-    
+
 }
 
 
@@ -42,16 +42,16 @@ body {
     margin-left: 55%;
     margin-top: 40px;
     font-size: 18pt;
-    
+
     z-index: 1;
     list-style-type: none;
-    
+
 }
 
 .mainmenu li{
     float: left;
     padding-right: 80px;
-     
+
 
 }
 
@@ -75,7 +75,7 @@ body {
     margin-top: 35px;
     -webkit-animation: pulsing 2s infinite;
   animation: pulsing 2s infinite;
-    
+
 }
 
 .biotext{
@@ -103,8 +103,8 @@ body {
     background-repeat: no-repeat;
     width: 32px;
     height: 34px;
-    
-    
+
+
     -webkit-animation: fire 1s infinite;
     animation: fire 1s infinite;
 }
